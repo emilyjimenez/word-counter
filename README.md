@@ -19,11 +19,11 @@ _A word counter web app that takes a user's inputted word, and string of words. 
 | Behavior  |  Input | Output  |
 |---|---|---|
 | Allow user to input string word.  | "kitty"  | "kitty" |
-| Display an error if the user leaves the string word blank. It will also display an error if the user inputs symbols, spaces or numbers in the string word.  | "k1tty!!!!"  | Alert appears if user clicks submit: Try again. The string word cannot be blank or contain spaces, numbers, or symbols.  |
+| Display an error if the user leaves the string word blank. It will also display an error if the user inputs symbols, spaces or numbers in the string word.  | "k1tty!!!!"  | _Alert appears if user clicks submit:_ Try again. The string word cannot be blank or contain spaces, numbers, or symbols.  |
 | Allow user to enter string of words.  | "Soft kitty, warm kitty, little ball of fur. Happy kitty, sleepy kitty, purr, purr, purr"  | "Soft kitty, warm kitty, little ball of fur. Happy kitty, sleepy kitty, purr, purr, purr"  |
-| It will display an error if user leaves string of words blank.  | String of words box is blank  | Alert appears if user clicks submit: String of words cannot be blank. Please enter a string of words.  |
+| It will display an error if user leaves string of words blank.  | String of words box is blank  | _Alert appears if user clicks submit:_ String of words cannot be blank. Please enter a string of words.  |
 | It will run the word counter method when the user clicks the submit button, and then will take the user to the results page. | User clicks submit | displays results page  |
-| Once results pages is loaded, results are displayed.  | string word: "kitty", string of words: "Soft kitty, warm kitty, little ball of fur. Happy kitty, sleepy kitty, purr, purr, purr"  | Results: Your string word was **kitty**, and was used **4 times** in string of words. |
+| Once results pages is loaded, results are displayed.  | _string word:_ "kitty", _string of words:_ "Soft kitty, warm kitty, little ball of fur. Happy kitty, sleepy kitty, purr, purr, purr"  | _Results:_ Your string word was **kitty**, and was used **4 times** in string of words. |
 | It will allow user to clear the data and go back to the main page.  | User clicks "clear and go back" button  | User is redirected to the main page and the inputs have been cleared out.  |
 
 
